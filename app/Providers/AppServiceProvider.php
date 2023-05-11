@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use function strpos;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -11,9 +12,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
-        // oh
-        // ahhhhhhh
+        $pos = strpos('foo', 'f');
     }
 
     /**

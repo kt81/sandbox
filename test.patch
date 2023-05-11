@@ -1,10 +1,12 @@
+diff --git a/app/Providers/AppServiceProvider.php b/app/Providers/AppServiceProvider.php
+index c21558a..1c9e240 100644
 --- a/app/Providers/AppServiceProvider.php
 +++ b/app/Providers/AppServiceProvider.php
-@@ -14,6 +14,7 @@ public function register(): void
-         //
-         // oh
-         // ahhhhhhh
-+
-     }
+@@ -3,6 +3,7 @@
+ namespace App\Providers;
  
-     /**
+ use Illuminate\Support\ServiceProvider;
++
+ use function strpos;
+ 
+ class AppServiceProvider extends ServiceProvider

@@ -4,9 +4,9 @@ index c21558a..1c9e240 100644
 +++ b/app/Providers/AppServiceProvider.php
 @@ -3,6 +3,7 @@
  namespace App\Providers;
-
+ 
  use Illuminate\Support\ServiceProvider;
 +
  use function strpos;
-
+ 
  class AppServiceProvider extends ServiceProvider
